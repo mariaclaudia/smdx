@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <GetCompactData xmlns="http://ec.europa.eu/eurostat/sri/service/2.0">
+      <Query>
+<QueryMessage xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:query="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+  <Header>
+    <ID>JD014</ID>
+    <Test>true</Test>
+    <Name xml:lang="en">Istat_Transmission</Name>
+    <Prepared>2001-03-11T09:30:47-05:00</Prepared>
+    <Sender id="IT1">
+      <Name xml:lang="en">ISTAT</Name>
+      <Contact>
+        <Name xml:lang="en">Alessio Cardacino</Name>
+        <Department xml:lang="en">ICT</Department>
+        <Role xml:lang="en">Technologist</Role>
+        <Telephone>+390646734183</Telephone>
+        <Fax>+390646734183</Fax>
+        <URI>www.istat.it</URI>
+        <Email>alcardac@istat.it</Email>
+      </Contact>
+    </Sender>
+    <Receiver id="IT1">
+      <Name xml:lang="en">ISTAT</Name>
+      <Contact>
+        <Name xml:lang="en">Alessio Cardacino</Name>
+        <Department xml:lang="en">ICT</Department>
+        <Role xml:lang="en">Technologist</Role>
+        <Telephone>+390646734183</Telephone>
+        <Fax>+390646732972</Fax>
+        <X400>aaaaa</X400>
+        <URI>www.istat.it</URI>
+        <Email>alcardac@istat.it</Email>
+      </Contact>
+    </Receiver>
+    <DataSetAgency>BIS</DataSetAgency>
+    <DataSetID>BIS_JD_237</DataSetID>
+    <DataSetAction>Append</DataSetAction>
+    <Extracted>2001-03-11T09:30:47-05:00</Extracted>
+    <ReportingBegin>2000-12-01T00:00:00</ReportingBegin>
+    <ReportingEnd>2006-01-01T00:00:00</ReportingEnd>
+  </Header>
+  <Query>
+    <query:DataWhere>
+      <query:And>
+        <query:Dataflow>114_196</query:Dataflow>
+      </query:And>
+    </query:DataWhere>
+  </Query>
+</QueryMessage></Query>
+    </GetCompactData>
+  </soap:Body>
+</soap:Envelope>
